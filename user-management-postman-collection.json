@@ -1,0 +1,431 @@
+{
+  "info": {
+    "name": "User Management System API",
+    "_postman_id": "12345678-abcd-efgh-ijkl-1234567890ab",
+    "description": "Collection to test all User Management System API routes.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create User",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/create-user",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "create-user"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Read User",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/read-user",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "read-user"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update User",
+      "request": {
+        "method": "PUT",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/update-user",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "update-user"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete User",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/delete-user",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "delete-user"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get All Users",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/all-users",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "all-users"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get User by ID",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/user/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "user",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "User Login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/login",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "login"
+          ]
+        }
+      }
+    },
+    {
+      "name": "User Logout",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/logout",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "logout"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Change Password",
+      "request": {
+        "method": "PUT",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/change-password",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "change-password"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Profile",
+      "request": {
+        "method": "PUT",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/update-profile",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "update-profile"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Make Admin",
+      "request": {
+        "method": "PUT",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/make-admin/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "make-admin",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Remove Admin",
+      "request": {
+        "method": "PUT",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/remove-admin/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "remove-admin",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Search Users",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/search",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "search"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Filter Users",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/filter",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "filter"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Block User",
+      "request": {
+        "method": "PATCH",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/block-user/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "block-user",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Unblock User",
+      "request": {
+        "method": "PATCH",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/unblock-user/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "unblock-user",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Verify Email",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/verify-email",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "verify-email"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Resend Verification",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/resend-verification",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "resend-verification"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Upload Profile Picture",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/upload-profile-picture",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "upload-profile-picture"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Account",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "http://localhost:5000/api/v1/users/delete-account",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "delete-account"
+          ]
+        }
+      }
+    }
+  ]
+}

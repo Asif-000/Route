@@ -23,5 +23,4 @@ JSON Body Parsing: Uses express.json() middleware to handle JSON request bodies.
 
 🛠 Technologies Used
 Node.js
-
 Express.js

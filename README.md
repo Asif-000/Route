@@ -15,11 +15,13 @@ POST /users – Create a new user
 
 DELETE /users/:id – Delete a user by ID
 
-In-Memory Data Storage: Users are stored in an in-memory array (no database connected yet).
+In-Memory Data Storage: Users are stored in an in-memory array.
 
 Modular Routing: User routes are separated into their own file for better organization (routes/user.js).
 
 JSON Body Parsing: Uses express.json() middleware to handle JSON request bodies.
+
+A Postman collection is included in the repository to help you quickly test the available API endpoints.
 
 🛠 Technologies Used
 Node.js
